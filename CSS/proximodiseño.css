@@ -1,0 +1,53 @@
+
+:root{
+--main-blanco: #f7f7f6;
+--main-amarillo: #F0D90D;
+--main-amarillopastel: #FADD43;
+--main-azulpastel:  #0188CA;
+--main-azul:#012060;
+--main-azuloscuro:#1D1D35;
+--main-negro: #111111;
+}
+
+
+
+@font-face{
+	font-family: anaktoria;
+	src: url(../FUENTES/Anaktoria.otf);
+}
+
+html{
+	font-size: 62.5%;
+	background-color: var(--main-blanco);
+}
+
+div{
+	height: .5em;
+	width: 100%;
+	background-color: var(--main-blanco);
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+h1{
+	text-align: center;
+	position: relative;
+	top: 1em;
+	font-family: anaktoria;
+	font-size: 5em;
+	color: var(--main-azul);
+
+}
+
+img{
+	position: relative;
+	top: 8em;
+	display: block;
+	margin: auto;
+	height: 40em;
+	width: 40em;
+}
